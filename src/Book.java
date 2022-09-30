@@ -1,8 +1,7 @@
 public class Book {
     private final String bookName;
-    int yearPublishing;
-    Autor autor;
-//Если ввести - Autor autor = new Autor(String firstName,  String lastName), то "return autor" тоже будет подчёркнут
+    private int yearPublishing;
+    private final Autor autor;
 
     public  String getBookName() {
         return this.bookName;
